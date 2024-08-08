@@ -1,3 +1,4 @@
-for(int p=1;p<=x;p++){
-// printf(" %d \n",a[p]);
-//  }
+ for(int m=7;m>=0;m--){
+//         if(arr[i]==arr[m]){ 
+//         flag = true;
+//         }}
