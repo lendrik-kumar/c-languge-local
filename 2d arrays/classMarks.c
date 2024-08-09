@@ -9,11 +9,11 @@ int arr[x][y];
 for(i=0;i<x;i++){
     for(j=0;j<y;j++){
         if(j==0){
-        printf("enter the roll number %d",i);
+        printf("enter the roll number %d :",i);
         scanf("%d",&arr[i][j]);
         }
         else{
-            printf("enter the marks");
+            printf("enter the marks %d :",j);
             scanf("%d",&arr[i][j]);
         }}
  printf("\n");
