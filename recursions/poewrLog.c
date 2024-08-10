@@ -10,6 +10,7 @@ if(y%2!=0) {
     y = y - 1;
     return x*power(x,y/2)*power(x,y/2);
 }
+return 0;
 }
 int main()
 {

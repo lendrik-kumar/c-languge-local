@@ -10,7 +10,6 @@ scanf("%d",&a[i]);
 }
 for (int j = x-1;j>=0;j--){
 printf("%d\n",a[j]);
-
 }
     return 0;
 }

@@ -1,7 +1,7 @@
 #include<stdio.h>
 void fun(int a[],int x){
    int i = 0;
-   int j = x;
+   int j = x;                //inclomplete
    int e = 0;
 while(i<j){
 if(a[i]!=a[j]){
@@ -12,15 +12,7 @@ if(a[i]==a[j]) printf("yes");
     i++;
     j--;
 }
-// if(x%2==0){
-//     if(e==x/2) printf("YES");
-//     else printf("NO");
-// }
-// if(x%2!=0) {
-//     if(e==(x-1)/2) printf("YES");
-//     else printf("NO");   
-// }
-  return;
+  return;                  //inclomplete
 }
 int main(){
 int x;
@@ -30,7 +22,7 @@ int a[x];
  for(int i=0;i<x;i++){
 printf("enter %d value",i+1);
 scanf("%d",&a[i]);
- }
+ }                          //inclomplete
    fun(a,x);
     return 0;
 }
