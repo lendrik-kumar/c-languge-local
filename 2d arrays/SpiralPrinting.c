@@ -5,7 +5,7 @@ int x,y,i,j;
      scanf("%d",&x);
      printf("enter the coulmns");
      scanf("%d",&y);
-int arr[x][y];
+int arr[x][y];   
   for(i=0;i<x;i++){
      for(j=0;j<y;j++){
         printf("enter the %d,%d value",i,j);
