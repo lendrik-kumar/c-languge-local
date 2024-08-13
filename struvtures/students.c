@@ -26,7 +26,7 @@ void check(char s1[20], char s2[20]) {
 
 int main() {
     school a, b;
-    strcpy(a.dep, "coe");
+    strcpy(a.dep, "cse");
     strcpy(b.dep, "coe");
     check(a.dep, b.dep);  
 
