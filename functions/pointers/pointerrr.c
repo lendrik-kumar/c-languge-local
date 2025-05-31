@@ -1,4 +1,4 @@
-#include<stdio.h>// pointers(int*) are used to store the address
+#include<stdio.h> // pointers(int*) are used to store the address
 int main(){
 int w=6;
 int* x;
